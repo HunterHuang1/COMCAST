@@ -1,0 +1,89 @@
+.App {
+  background-color: aliceblue;
+  height:100%;
+  min-height:100vh;
+}
+
+.search-bar {
+  margin: 0px;
+  height:100%;
+  background-color: antiquewhite;
+  padding: 15px;
+  display: block;
+}
+.hotels {
+  margin-left:  15px;
+  height:100%;
+  border: red 1px bold;
+  display: block;
+}
+
+h1 {
+  text-align: center;
+  background-color: beige;
+  margin-top: 0;
+  padding:10px;
+  margin-bottom: 0;
+}
+
+label {
+  font-family: "Helvetica Neue",Arial,"Lucida Grande",sans-serif;
+  color:blue;
+}
+
+select {
+  margin: 10px 20px;
+}
+
+select .sort-way {
+  margin:10px 0px;
+}
+
+.check-date label {
+  margin:5px 10px 0px 0px;
+}
+
+.units {
+  border:solid red 1px;
+}
+
+.hotel-detail {
+  display: inline-block;
+}
+
+.hotel-detail {
+  width:400px;
+  vertical-align: top;
+  margin:auto;
+}
+
+.img {
+  margin:5px;
+  width:400px;
+}
+.detail-info {
+  width:300px;
+  margin:5px;
+  
+}
+.detail-info label {
+  margin-bottom:2px;
+}
+.detail-info .hotel-rating {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: red;
+  font-size: 1em;
+}
+
+.hotel-address {
+  color: lightcoral;
+}
+
+.detail-info .hotel-price {
+  color:#bc258a;
+  /* float:right; */
+  margin-left:200px;
+  font-size: 2em;
+}
+
+
