@@ -2,9 +2,10 @@ Assignment of Comcast
 
 steps to run the program:
 
-npm install
-/src node fetchdata.js
-/comcast npm start
+1. npm install
+2. /src node fetchdata.js
+3. /comcast npm start
+
 description: Here The Project Consists of two parts. The node part to extract the data from two html files. I used fs and jquery to help fetch data. The fetchdata.js is the code. And fetch data into the given manner, output into the json file(obj1.json and obj2.json)
 
 And then i used react to do the app development, total 3 components. Search component to do the filter, hotels component do the data processing, and hotel component to do the presentation.
